@@ -7,6 +7,8 @@ import EvenOdd from './EvenOdd';
 import ArmStrong from './Armstrong';
 import Even from './Even';
 import Form from './Form';
+import Home from './Home';
+import Parent from './Parent';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,7 +19,10 @@ root.render(
    {/* <EvenOdd/> */}
    {/* <ArmStrong/> */}
    {/* <Even/> */}
-   <Form/>
+   {/* <Form/> */}
+   {/* <Home/> */}
+   <Parent/>
+
 
   </React.StrictMode>
 )
